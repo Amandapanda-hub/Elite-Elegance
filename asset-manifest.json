@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Elite-Elegance/static/css/main.63691035.css",
+    "main.js": "/Elite-Elegance/static/js/main.59f98d1a.js",
+    "static/media/spa.mp4": "/Elite-Elegance/static/media/spa.1fbbf84e382524655948.mp4",
+    "static/media/redonwhiterose.jpg": "/Elite-Elegance/static/media/redonwhiterose.9be69a812b6cca8a1b1b.jpg",
+    "index.html": "/Elite-Elegance/index.html",
+    "main.63691035.css.map": "/Elite-Elegance/static/css/main.63691035.css.map",
+    "main.59f98d1a.js.map": "/Elite-Elegance/static/js/main.59f98d1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63691035.css",
+    "static/js/main.59f98d1a.js"
+  ]
+}
