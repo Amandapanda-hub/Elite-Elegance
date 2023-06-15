@@ -1,0 +1,90 @@
+.carousel-header {
+    position: absolute;
+    top: 12%;  /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .carousel-header h1 {
+
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 0 0 10px #8cb6c9, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    /* color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 4px 4px rgba(255, 239, 239, 0.598); */
+  }
+
+
+.carousel-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-slide {
+    width: 50%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.5s;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5); /* add glow effect */
+  }
+  
+  .carousel-text h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Raleway';
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    letter-spacing: 6px; 
+  }
+
+
+  
+  .carousel-dots {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+    padding: 6rem;
+  }
+  
+  .carousel-dot {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .active-dot {
+    color: #983a3a;
+  }
+  
+  /* #b94747 */
+
+  @media screen and (max-width:1240px) {
+    .carousel-header, 
+    .carousel-container, 
+    .carousel-slide, 
+    .carousel-text, 
+    .carousel-dots, 
+    .carousel-dot {
+        display: none;
+    }
+}
