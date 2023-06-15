@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import {Link} from 'react-router-dom'
 import './Video.css'
 import sunSet from '../../../../assets/video/spa.mp4';
-import {mobileImage} from '../../../../assets/images/mobile-rose-water.png'
+import mobileImage from '../../../../assets/images/mobile-rose-water.png';
 
 export default function Video() {
     const [width, setWidth] = useState(window.innerWidth);
