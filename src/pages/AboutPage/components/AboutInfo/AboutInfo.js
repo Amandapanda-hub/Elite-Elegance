@@ -7,7 +7,9 @@ export default function AboutInfo() {
     <div class="grid-container">
         <div class="grid-item">
             <h3>Our Philosophy</h3>
-            <p>At Elite Nail Spa, we believe in the transformative power of self-care. Our philosophy is rooted in the idea that beauty and wellness are interconnected. We strive to provide services that not only enhance your physical appearance but also uplift your spirit.</p>
+            <div class="grid-paragraph">
+                <p>At Elite Nail Spa, we believe in the transformative power of self-care. Our philosophy is rooted in the idea that beauty and wellness are interconnected. We strive to provide services that not only enhance your physical appearance but also uplift your spirit.</p>
+            </div>
             <img src="https://images.unsplash.com/photo-1630595271375-5073a6c0638b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTMzNXwwfDF8c2VhcmNofDIxfHxzcGF8ZW58MXx8fHwxNjg0Mjk4NjE0fDA&ixlib=rb-4.0.3&q=80&w=1000" alt=""/>
         </div>
         <div class="grid-item">

@@ -14,7 +14,8 @@
     justify-content: space-between;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    margin-bottom: 20px auto;
+    /* margin-bottom: 20px auto; */
+    margin: 10px auto;
   }
   
   .grid-item h3 {
@@ -22,25 +23,40 @@
     font-size: 2rem;
     margin: 2px auto;
     color: rgb(0, 0, 0);
+    letter-spacing: 3px;
   }
   
   .grid-item p {
     font-weight: 500;
     font-size: 20px;
-    margin: 4px auto;
+    /* margin: 4px auto; */
+    margin: 20px auto;
     text-align: center;
     color: rgb(0, 0, 0);
+
+    width: 80%;
   }
   
   .grid-item img {
-    width: 100%;
+    width: 80%;
     height: 400px;
     object-fit: cover;
     margin: 20px auto;
     border-radius: 80%;
   }
   
-  
+  /* .grid-paragraph {
+    width: 50%;
+   margin: auto;
+  } */
+  @media screen and (max-width:1240px) {
+    .grid-item p {
+      width: 80%;
+      margin: 15px auto;
+    }
+    
+  }
+
   @media screen and (max-width: 900px) { /* Tablet */
     .grid-item {
         flex-basis: 90%; /* full width on smaller screens */
@@ -52,6 +68,8 @@
   
     .grid-item p {
         font-size: 18px;
+        margin: 10px auto;
+        width: 70%;
     }
   
     .grid-item img {
@@ -71,11 +89,11 @@
   
     .grid-item p {
         font-size: 16px;
+        margin: 15px auto;
     }
   
     .grid-item img {
         height: 200px; /* adjust as needed */
-        border-radius: 60%;
+        border-radius: 100%;
     }
   }
-  
