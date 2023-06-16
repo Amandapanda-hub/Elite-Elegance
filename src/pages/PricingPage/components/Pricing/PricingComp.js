@@ -4,12 +4,11 @@ import {Link} from 'react-router-dom'
 
 export default function PricingComp() {
   return (
-    <>
     <div className='pricing'>
-    <div className='card-container'>
+      <div className='card-container'>
+        {/* First Row of Cards */}
         <div className='card'>
             <h3>- Classic Manicure -</h3>
-            <span className='bar'></span>
             <p className='eth'>$35</p>
             <p>- 45 Minutes -</p>
             <p>- Relaxing Ambiance -</p>
@@ -19,7 +18,6 @@ export default function PricingComp() {
         </div>
         <div className='card'>
             <h3>- Deluxe Pedicure -</h3>
-            <span className='bar'></span>
             <p className='eth'>$50</p>
             <p>- 1 Hour -</p>
             <p>- Scenic View -</p>
@@ -29,7 +27,6 @@ export default function PricingComp() {
         </div>
         <div className='card'>
             <h3>- Gel Polish Application -</h3>
-            <span className='bar'></span>
             <p className='eth'>$20</p>
             <p>- 30 Minutes -</p>
             <p>- Modern Setting -</p>
@@ -37,13 +34,10 @@ export default function PricingComp() {
             <p>- Personalized Booth -</p>
             <Link to='/contact' className='btn'>BOOK</Link>
         </div>
-    </div>
-</div>
-<div className='pricing'>
-    <div className='card-container'>
+
+        {/* Second Row of Cards */}
         <div className='card'>
             <h3>- Full Set Acrylics -</h3>
-            <span className='bar'></span>
             <p className='eth'>$55</p>
             <p>- 1.5 Hours -</p>
             <p>- Chic Decor -</p>
@@ -53,7 +47,6 @@ export default function PricingComp() {
         </div>
         <div className='card'>
             <h3>- Nail Repair -</h3>
-            <span className='bar'></span>
             <p className='eth'>$10 per nail</p>
             <p>- 15 minutes per nail -</p>
             <p>- Professional Area -</p>
@@ -63,7 +56,6 @@ export default function PricingComp() {
         </div>
         <div className='card'>
             <h3>- Gentlemen's Manicure -</h3>
-            <span className='bar'></span>
             <p className='eth'>$30</p>
             <p>- 45 Minutes -</p>
             <p>- Masculine Ambiance -</p>
@@ -71,8 +63,7 @@ export default function PricingComp() {
             <p>- Private Corner -</p>
             <Link to='/contact' className='btn'>BOOK</Link>
         </div>
+      </div>
     </div>
-</div>
-</>
   )
 }

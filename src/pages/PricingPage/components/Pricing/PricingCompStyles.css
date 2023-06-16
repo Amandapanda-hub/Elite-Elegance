@@ -17,11 +17,12 @@
 .card-container .card {
     border: 1px solid #bdbdbd;
     color: #eee;
+    width: auto; /* << adding width */
 }
 
 .card {
     text-align: center;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .card:hover {
@@ -32,6 +33,7 @@
     font-size: 1.4rem;
     padding: 1rem;
     color: #000000;
+    margin-top: 1rem;
 }
 
 .card .bar {
@@ -60,10 +62,61 @@
     color: #000000;
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
     .card-container {
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
+    }
+} */
+
+@media screen and (max-width: 1240px) { /* Large screens */
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) { /* Medium screens */
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 700px; 
+    }
+
+    .pricing p {
+        font-size: 1rem;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+    }
+
+    .card .eth {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) { /* Small screens */
+    .card-container {
+        grid-template-columns: 1fr; 
+        max-width: 500px;
+    }
+
+    .pricing p {
+        font-size: 0.8rem;
+    }
+
+    .card h3 {
+        font-size: 1rem;
+    }
+
+    .card .eth {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 640px) { /* Extra Small screens */
+    .card-container {
+        grid-template-columns: 1fr;
+        max-width: 400px;
     }
 }
