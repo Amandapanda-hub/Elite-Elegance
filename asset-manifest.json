@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Elite-Elegance/static/css/main.3d265556.css",
+    "main.css": "/Elite-Elegance/static/css/main.55089e5d.css",
     "main.js": "/Elite-Elegance/static/js/main.856031aa.js",
     "static/media/mobile-rose-water.png": "/Elite-Elegance/static/media/mobile-rose-water.ee5ba64565c012c33698.png",
     "static/media/spa.mp4": "/Elite-Elegance/static/media/spa.1fbbf84e382524655948.mp4",
     "static/media/redonwhiterose.jpg": "/Elite-Elegance/static/media/redonwhiterose.9be69a812b6cca8a1b1b.jpg",
     "index.html": "/Elite-Elegance/index.html",
-    "main.3d265556.css.map": "/Elite-Elegance/static/css/main.3d265556.css.map",
+    "main.55089e5d.css.map": "/Elite-Elegance/static/css/main.55089e5d.css.map",
     "main.856031aa.js.map": "/Elite-Elegance/static/js/main.856031aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d265556.css",
+    "static/css/main.55089e5d.css",
     "static/js/main.856031aa.js"
   ]
 }
