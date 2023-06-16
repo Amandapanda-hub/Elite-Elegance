@@ -1,6 +1,6 @@
 .pricing {
     width: 100%;
-    padding: 4rem 1rem;
+    padding: 5rem 1rem;
     /* background-color: #dff9ff97; */
     /* background-color: rgba(99, 153, 180, 0.8); */
     background-color: rgb(230, 233, 237);
@@ -71,12 +71,21 @@
 } */
 
 @media screen and (max-width: 1240px) { /* Large screens */
+    .pricing {
+        padding: 4rem 1rem;
+    }
+
     .card-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 992px) { /* Medium screens */
+    .pricing {
+        padding: 3rem 1rem;
+
+    }
+
     .card-container {
         grid-template-columns: repeat(2, 1fr);
         max-width: 700px; 
@@ -96,6 +105,10 @@
 }
 
 @media screen and (max-width: 768px) { /* Small screens */
+    .pricing {
+        padding: 1rem 1rem;
+    }
+
     .card-container {
         grid-template-columns: 1fr; 
         max-width: 500px;
