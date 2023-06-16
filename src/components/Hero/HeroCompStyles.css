@@ -1,6 +1,6 @@
 .hero-img {
     background: rgba(0,0,0,.3);
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     position: relative;
     image-rendering: optimizeQuality;
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 1240px) { /* For Large screens */
     .hero-img {
-        height: 45vh;
+        height: 35vh;
     }
 
     .hero-img h1 {
@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 992px) { /* For Medium screens */
     .hero-img {
-        height: 40vh;
+        height: 30vh;
     }
 
     .hero-img h1 {
@@ -77,7 +77,7 @@
 
 @media screen and (max-width: 640px) {
     .hero-img {
-        height: 30vh;
+        height: 35vh;
     }
 
     .hero-img h1 {
