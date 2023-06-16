@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 1240px) { /* For Large screens */
     .hero-img {
-        height: 40vh;
+        height: 45vh;
     }
 
     .hero-img h1 {
@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 992px) { /* For Medium screens */
     .hero-img {
-        height: 30vh;
+        height: 40vh;
     }
 
     .hero-img h1 {
@@ -63,7 +63,7 @@
 
 @media screen and (max-width: 768px) { /* For Small screens */
     .hero-img {
-        height: 25vh;
+        height: 35vh;
     }
 
     .hero-img h1 {
@@ -77,8 +77,9 @@
 
 @media screen and (max-width: 640px) {
     .hero-img {
-        height: 20vh;
+        height: 30vh;
     }
+
     .hero-img h1 {
         font-size: 2rem;
     }
