@@ -24,6 +24,7 @@
     margin: 2px auto;
     color: rgb(0, 0, 0);
     letter-spacing: 3px;
+    text-align: center; 
   }
   
   .grid-item p {
@@ -54,7 +55,7 @@
       width: 80%;
       margin: 15px auto;
     }
-    
+
   }
 
   @media screen and (max-width: 900px) { /* Tablet */
