@@ -55,8 +55,6 @@
     letter-spacing: 6px; 
   }
 
-
-  
   .carousel-dots {
     position: absolute;
     bottom: 1rem;
@@ -78,7 +76,25 @@
   
   /* #b94747 */
 
-  @media screen and (max-width:1240px) {
+  @media screen and (max-width: 1500px) {
+
+    .carousel-header h1 {
+      font-size: 3.5rem; /* Adjust as needed */
+    }
+
+  }
+
+  @media screen and (max-width: 1300px) {
+
+    .carousel-header h1 {
+      font-size: 3rem; /* Adjust as needed */
+    }
+
+  }
+
+  
+@media screen and (max-width: 1240px) {
+
     .carousel-header, 
     .carousel-container, 
     .carousel-slide, 
@@ -88,3 +104,4 @@
         display: none;
     }
 }
+

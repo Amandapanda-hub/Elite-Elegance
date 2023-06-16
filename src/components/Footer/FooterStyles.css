@@ -52,29 +52,75 @@
     padding-top: 0;
 }
 
-@media screen and (max-width: 900px) { /* Tablet */
+/* Small devices (phones, up to 600px) */
+@media (max-width: 600px) {
     .footer-container {
         grid-template-columns: 1fr;
-        text-align: center; /* Centering the text */
+    }
+
+    .footer .left {
+        margin: left;
+    }
+    
+    .right .social {
+        margin: left;
     }
 
     .footer h4 {
-        font-size: 1.5rem; /* Made font bigger */
+        font-size: 1.3rem;
     }
 
     .footer p {
-        font-size: 1.3rem; /* Made font bigger */
+        font-size: 1.1rem;
     }
 
     .footer .location {
-        justify-content: center; /* Centering flex items */
+        justify-content: flex-start; /* Adjust this */
     }
 }
 
-@media screen and (max-width: 640px) { /* Phone */
+/* Medium devices (tablets, 600px and up) */
+@media (min-width: 601px) and (max-width: 768px) {
     .footer-container {
         grid-template-columns: 1fr;
-        text-align: center; /* Centering the text */
+    }
+
+    .footer h4 {
+        font-size: 1.5rem;
+    }
+
+    .footer p {
+        font-size: 1.3rem;
+    }
+
+    .footer .location {
+        justify-content: flex-start; /* Adjust this */
+    }
+}
+
+/* @media screen and (max-width: 900px) { 
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center; 
+    }
+
+    .footer h4 {
+        font-size: 1.5rem; 
+    }
+
+    .footer p {
+        font-size: 1.3rem;
+    }
+
+    .footer .location {
+        justify-content: center; 
+    }
+} */
+
+/* @media screen and (max-width: 640px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center; 
     }
     
     .right .social {
@@ -82,14 +128,14 @@
     }
 
     .footer h4 {
-        font-size: 1.3rem; /* Made font bigger */
+        font-size: 1.3rem; 
     }
 
     .footer p {
-        font-size: 1.1rem; /* Made font bigger */
+        font-size: 1.1rem;
     }
 
     .footer .location {
-        justify-content: center; /* Centering flex items */
+        justify-content: center; 
     }
-}
+} */
